@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recHeight">620px</dimen>
+    <dimen name="recWidth">800px</dimen>
+    <dimen name="negativeRecHeight">-620px</dimen>
+    <dimen name="negativeRecWidth">-800px</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Edytując te wartości trzeba zedytowac też rectHeight i rectWidth w OpenCvStuff.java -> cropPhoto1 -->
+</resources>

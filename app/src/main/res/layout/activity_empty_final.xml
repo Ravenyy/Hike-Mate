@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.example.dyplomowy.EmptyFinalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@color/black"
+        android:alpha="0.75">
+
+        <TextView
+            android:id="@+id/routeNotFoundText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:text="@string/routeNotFound"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@color/black"
+        android:alpha="0.75">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@color/black"
+        android:alpha="0.75">
+
+        <Button
+            android:id="@+id/showEmptyMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/showMap"
+            android:textSize="18sp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/black"
+        android:alpha="0.75">
+
+        <Button
+            android:id="@+id/backToLauncher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/backToLauncher"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
